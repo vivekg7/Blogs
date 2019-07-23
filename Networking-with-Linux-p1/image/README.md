@@ -1,1 +1,1 @@
-# Contains Images for My BLOG.
+# Contains Images for .md format blog
