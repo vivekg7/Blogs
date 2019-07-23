@@ -46,3 +46,38 @@ Default packet size is 55 but you can change it with *-s* **packetsize**.
 
 > "ping w3schools.com" will fail to recieve any packets .
 
+## ifconfig
+**configure a network interface**
+Ifconfig  is used to configure the kernel-resident network interfaces.
+It is used at boot time to set up interfaces as necessary.
+After that, it is usually only needed when debugging or 
+when system  tuning  is needed.
+
+![Figure 3.1](image/ifconfig.png)
+
+**Figure 3.1**
+
+If no arguments are given,
+ifconfig displays the status of the currently active interfaces. 
+If a single interface argument is given,
+it displays the status of the given interface only.
+
+![Figure 3.2](image/ifconfig-data.png)
+
+**Figure 3.2**
+    
+Using grep to see a specific result.
+Here I show data uses by the Ethernet Interface.
+RX is recieved amount of data and TX is transfered data since last login.
+
+## traceroute
+**print the route packets trace to network host**
+Trace every server that request jumps from or to in order to get to the host server.
+
+![Figure 4.1](image/traceroute-thisp.png)
+
+**Figure 4.1**
+    
+We see asterisks in the line when router do not provide identifying information.
+In cases where routing information is blocked, we can sometimes overcome this by adding
+either the -T or -I option to the traceroute command.
