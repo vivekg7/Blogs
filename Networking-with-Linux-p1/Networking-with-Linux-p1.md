@@ -2,6 +2,7 @@
 ## 1 INTRODUCTION
 When it comes to networking, there is probably nothing that cannot
 be done with Linux.
+
 Some one said once : Programming is learnt better with examples
 rather than with theories and books. Here are commands explained
 with example. But don’t rely only on this article. This is only
@@ -9,6 +10,7 @@ the insight into what can be done. See manual pages for more
 information.
 ## 2 ping
 **send ICMP ECHO REQUEST to network hosts**
+
 ping is the most basic command. And it is by default installed in all linux sys-
 tems. This can be used to check if your internet connection is working properly.
 
@@ -36,11 +38,13 @@ Afterwards the command auto stops.
 Flag *-i* **n** specifies exactly n seconds wait before sending next packet.
 And Flag *-n* says to print only numeric outputs.
 As manual says: only superuser can set interval less than 0.2 .
+
 There even more options, like you can set a deadline time for ping to stop
 with *-w* **deadline**.
 Default packet size is 55 but you can change it with *-s* **packetsize**.
 #### NOTE :-
-> Some network devices are configured to ignore these packets for security reasons. Even some firewalls are configured to block ICMP traffic.
+> Some network devices are configured to ignore these packets for security reasons.
+  Even some firewalls are configured to block ICMP traffic.
 
 > example site : w3schools.com .
 
@@ -48,6 +52,7 @@ Default packet size is 55 but you can change it with *-s* **packetsize**.
 
 ## ifconfig
 **configure a network interface**
+
 Ifconfig  is used to configure the kernel-resident network interfaces.
 It is used at boot time to set up interfaces as necessary.
 After that, it is usually only needed when debugging or 
@@ -72,6 +77,7 @@ RX is recieved amount of data and TX is transfered data since last login.
 
 ## traceroute
 **print the route packets trace to network host**
+
 Trace every server that request jumps from or to in order to get to the host server.
 
 ![Figure 4.1](image/traceroute-thisp.png)
