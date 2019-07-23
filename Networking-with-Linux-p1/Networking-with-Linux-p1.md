@@ -38,5 +38,8 @@ with *-w* **deadline**.
 Default packet size is 55 but you can change it with *-s* **packetsize**.
 #### NOTE :-
 > Some network devices are configured to ignore these packets for security reasons. Even some firewalls are configured to block ICMP traffic.
+
 > example site : w3schools.com .
+
 > "ping w3schools.com" will fail to recieve any packets .
+
