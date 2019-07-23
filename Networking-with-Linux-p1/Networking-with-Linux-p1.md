@@ -124,7 +124,7 @@ to its corresponding physical address, commonly known as MAC address.
 With ip command you can view the MAC address of the devices connected
 in your LAN by using the option neigh or neighbour or simply n.
 
-You can activate or deactivate a network interface by:\\
+You can activate or deactivate a network interface by:
 
     $ sudo ip link set <interface> up
 
@@ -203,7 +203,7 @@ on standard output.
 
 **Figure 6.7**
 
-You can also specify a port to look for with *port <port number>*.
+You can also specify a port to look for with *port* **port number**.
 Use ctrl-C to exit.
 Here a look on port 22 (special port for ssh).
 But if you are not using this port, you will not see any output packets here.
@@ -410,7 +410,9 @@ which still routes most Internet traffic today.
 
 Learn about Internet Control Message Protocol (ICMP) 
 a supporting protocol in internet protocol suite.
+
 [nmap](https://nmap.org)
+
 Oficial Website of nmap.
 A lot more than the manual.
 Also there a is a book about nmap.
