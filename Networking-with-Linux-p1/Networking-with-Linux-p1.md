@@ -14,6 +14,8 @@ tems. This can be used to check if your internet connection is working properly.
 
 ![Figure 2.1](image/ping-google.png)
 
+**Figure 2.1**
+
 It verifies the connection by sending packets of data. Use ctrl-C to stop it
 otherwise it will keep sending data. In the end it provides a brief summary of
 what has been done. It sends 1 packet each second by default. here you can see
@@ -22,10 +24,14 @@ time taken to return data.
 
 ![Figure 2.2](image/ping-count.png)
 
+**Figure 2.2**
+
 Flag *-c* **n** specifies exactly n number of packets to send.
 Afterwards the command auto stops.
 
 ![Figure 2.3](image/ping-intr-num.png)
+
+**Figure 2.3**
 
 Flag *-i* **n** specifies exactly n seconds wait before sending next packet.
 And Flag *-n* says to print only numeric outputs.
