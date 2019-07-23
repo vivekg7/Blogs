@@ -107,7 +107,7 @@ All these listed commands will do the same thing.
     vivek@captain:~$ ip addr
     vivek@captain:~$ ip address
 
-![Figure 5.2](image/ip-sh1.png)
+![Figure 5.2](image/ip-shl.png)
 
 **Figure 5.2**
     
