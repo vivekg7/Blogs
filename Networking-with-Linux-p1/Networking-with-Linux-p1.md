@@ -12,7 +12,7 @@ information.
 ping is the most basic command. And it is by default installed in all linux sys-
 tems. This can be used to check if your internet connection is working properly.
 
-![Figure 2.1](/image/ping-google.png)
+![Figure 2.1](image/ping-google.png)
 Format: ![Alt Text](url)
 
 It verifies the connection by sending packets of data. Use ctrl-C to stop it
@@ -21,13 +21,13 @@ what has been done. It sends 1 packet each second by default. here you can see
 172.217.166.238 is the exact IP address of server. It also provides the length of
 time taken to return data.
 
-![Figure 2.2](/image/ping-count.png)
+![Figure 2.2](image/ping-count.png)
 Format: ![Alt Text](url)
 
 Flag *-c* **n** specifies exactly n number of packets to send.
 Afterwards the command auto stops.
 
-![Figure 2.3](/image/ping-intr-num.png)
+![Figure 2.3](image/ping-intr-num.png)
 Format: ![Alt Text](url)
 
 Flag *-i* **n** specifies exactly n seconds wait before sending next packet.
